@@ -14,6 +14,6 @@ authApi.interceptors.request.use((config) => {
             alert("인증이 필요합니다.");
             return Promise.reject("인증이 필요합니다.");
         };
-        //congig.headers : 어떻게 저장하더라 .......
+        //config.headers : 어떻게 저장하더라 .......
     }
 })
